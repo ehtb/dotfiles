@@ -72,7 +72,6 @@ brew install elixir
 brew install pyenv
 brew install erlang
 brew install git-flow-avh
-brew install nvm
 brew install rbenv
 brew install watchman
 brew install redis
