@@ -42,3 +42,5 @@ brew cask install soundnode
 brew cask install spotify
 brew cask install slack
 brew cask install skype
+brew cask install handbrake
+brew cask install crashplan
