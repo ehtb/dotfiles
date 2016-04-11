@@ -79,6 +79,7 @@ brew install go
 brew install libsass
 brew install ruby-build
 brew install phantomjs
+brew install selenium-server-standalone
 
 brew install wifi-password
 
