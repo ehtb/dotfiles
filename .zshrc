@@ -14,7 +14,6 @@ antigen bundle brew
 antigen bundle brew-cask
 antigen bundle npm
 antigen bundle nvm
-antigen bundle common-aliases
 antigen bundle osx
 antigen bundle mafredri/zsh-async
 antigen bundle sindresorhus/pure
