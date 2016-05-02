@@ -21,6 +21,8 @@ brew cask install balsamiq-mockups
 brew cask install textmate
 brew cask install transmit
 brew cask install virtualbox
+brew cask install vagrant
+brew cask install vagrant-manager
 brew cask install adobe-creative-cloud
 brew cask install sketch
 brew cask install postgres
