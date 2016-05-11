@@ -81,6 +81,7 @@ brew install ruby-build
 brew install phantomjs
 brew install selenium-server-standalone
 brew install ansible
+brew install terraform
 
 brew install wifi-password
 
