@@ -1,9 +1,0 @@
-[credential]
-	helper = osxkeychain
-	required = true
-[push]
-	default = simple
-	followTags = true
-[core]
-	excludesfile = ~/.gitignore_global
-	editor = mate -w
