@@ -27,11 +27,7 @@ brew cask install adobe-creative-cloud
 brew cask install sketch
 brew cask install postgres
 brew cask install dockertoolbox
-<<<<<<< HEAD
-=======
-brew cask install heroku
 brew cask install ngrok
->>>>>>> 8995841c5a9422f3c4a7f2f4f450cf468a82c98b
 
 # browsers
 brew cask install google-chrome
