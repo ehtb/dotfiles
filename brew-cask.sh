@@ -28,6 +28,7 @@ brew cask install sketch
 brew cask install postgres
 brew cask install dockertoolbox
 brew cask install heroku
+brew cask install ngrok
 
 # browsers
 brew cask install google-chrome
