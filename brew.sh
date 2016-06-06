@@ -53,6 +53,7 @@ brew install fzf
 
 brew install git
 brew install imagemagick --with-webp
+brew install graphicsmagick
 brew install pv
 brew install rename
 brew install tree
