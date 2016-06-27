@@ -32,6 +32,8 @@ brew cask install ngrok
 # browsers
 brew cask install google-chrome
 brew cask install firefox
+brew cask install safari-technology-preview
+brew cask install google-chrome-canary
 
 # less often
 brew cask install disk-inventory-x
