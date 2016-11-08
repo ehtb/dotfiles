@@ -25,7 +25,6 @@ brew cask install vagrant
 brew cask install vagrant-manager
 brew cask install adobe-creative-cloud
 brew cask install sketch
-brew cask install postgres
 brew cask install dockertoolbox
 brew cask install ngrok
 
