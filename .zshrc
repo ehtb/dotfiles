@@ -31,6 +31,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
 
 # Load RBENV
+PATH=$PATH:$HOME/.rbenv/bin
 eval "$(rbenv init - zsh --no-rehash)"
 
 # Load PYENV
