@@ -74,6 +74,7 @@ brew install pyenv
 brew install erlang
 brew install git-flow-avh
 brew install rbenv
+brew install postgres
 brew install watchman
 brew install redis
 brew install go
