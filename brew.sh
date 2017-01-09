@@ -38,11 +38,8 @@ brew install git
 # github util. imho better than hub
 brew install gh
 
-brew install imagemagick --with-webp
-brew install graphicsmagick
 brew install terminal-notifier
 
-brew install android-platform-tools
 brew install zsh
 brew install zsh-completions
 brew install antigen
@@ -51,7 +48,6 @@ brew install elixir
 brew install pyenv
 brew install erlang
 brew install rbenv
-brew install postgres
 brew install redis
 brew install go
 brew install libsass
