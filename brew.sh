@@ -19,9 +19,6 @@ brew install gnu-sed --default-names
 
 brew install homebrew/completions/brew-cask-completion
 
-# generic colouriser  http://kassiopeia.juls.savba.sk/~garabik/software/grc/
-brew install grc
-
 # Install wget with IRI support
 brew install wget --with-iri
 
@@ -33,38 +30,19 @@ brew install homebrew/dupes/screen
 brew install homebrew/dupes/zlib
 
 # run this script when this file changes guy.
-brew install entr
+# brew install entr
 
+# Install other useful binaries
+
+brew install git
 # github util. imho better than hub
 brew install gh
 
-# mtr - ping & traceroute. best.
-brew install mtr
-
-    # allow mtr to run without sudo
-    mtrlocation=$(brew info mtr | grep Cellar | sed -e 's/ (.*//') #  e.g. `/Users/paulirish/.homebrew/Cellar/mtr/0.86`
-    sudo chmod 4755 $mtrlocation/sbin/mtr
-    sudo chown root $mtrlocation/sbin/mtr
-
-
-# Install other useful binaries
-brew install the_silver_searcher
-brew install fzf
-
-brew install git
 brew install imagemagick --with-webp
 brew install graphicsmagick
-brew install pv
-brew install rename
-brew install tree
-brew install zopfli
-brew install ffmpeg --with-libvpx
-
 brew install terminal-notifier
 
 brew install android-platform-tools
-brew install pidcat   # colored logcat guy
-
 brew install zsh
 brew install zsh-completions
 brew install antigen
@@ -72,20 +50,12 @@ brew install antigen
 brew install elixir
 brew install pyenv
 brew install erlang
-brew install git-flow-avh
 brew install rbenv
 brew install postgres
-brew install watchman
 brew install redis
 brew install go
 brew install libsass
 brew install ruby-build
-brew install phantomjs
-brew install selenium-server-standalone
-brew install ansible
-brew install terraform
-
-brew install wifi-password
 
 # Remove outdated versions from the cellar
 brew cleanup
