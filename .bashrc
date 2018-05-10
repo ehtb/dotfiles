@@ -1,13 +1,3 @@
-source /usr/local/share/antigen/antigen.zsh
-
-antigen bundle mafredri/zsh-async
-antigen bundle sindresorhus/pure
-antigen-bundle zsh-users/zsh-autosuggestions
-antigen-bundle zsh-users/zsh-completions
-antigen-bundle zsh-users/zsh-syntax-highlighting
-
-antigen-apply
-
 export EDITOR="mate -w"
 export LC_ALL="en_US.UTF-8"
 export LANG="en_US"
@@ -33,5 +23,3 @@ PATH=$PATH:$GOPATH/bin
 
 # Init Java
 if which jenv > /dev/null; then eval "$(jenv init -)"; fi
-
-source ~/.functions
